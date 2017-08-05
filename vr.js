@@ -1,4 +1,4 @@
-var myPicture = vrViewPlayer("#vr",{
+var myPicture = vrViewPlayer("#vrelement",{
 	image: 'image.jpg',
 	is_stereo: false
 });
