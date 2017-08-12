@@ -50,6 +50,9 @@ myPicture.on('click',function(e){
     alert("Clicked HOTSPOT 4");
   }
   if(e.id == "hotspot-5"){
-    alert("Clicked HOTSPOT 5");
+    myPicture.setContent({
+      image; 'park.jpg',
+      is_stereo: true
+    });
   }
 });
