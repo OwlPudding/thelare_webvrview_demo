@@ -51,7 +51,7 @@ myPicture.on('click',function(e){
   }
   if(e.id == "hotspot-5"){
     myPicture.setContent({
-      image; 'park.jpg',
+      image: 'park.jpg',
       is_stereo: true
     });
   }
